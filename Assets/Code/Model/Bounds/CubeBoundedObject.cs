@@ -38,7 +38,7 @@ namespace Asteroids.Core.Bounds {
         public void UpdateBounds(CubeBounds bounds) {
             _bounds = bounds;
 
-            // TODO: make sure that min IS min and max IS max (not important for test app)
+            // TODO: make sure that min IS min and max IS max (not important for demo)
 
             _boundsSize = new Vector3(
                 Mathf.Abs(_bounds.Max.x - _bounds.Min.x),

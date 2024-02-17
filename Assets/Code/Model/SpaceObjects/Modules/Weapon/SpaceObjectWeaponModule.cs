@@ -14,7 +14,7 @@ namespace Asteroids.Core.SpaceObjects.Modules {
             public float ShotCooldown;
         }
 
-        // TODO: this can be buffable, consider it (not important for demo project)
+        // TODO: this can be buffable, consider it (not important for demo)
         private WeaponParams _weaponParams;
         public WeaponParams WeaponParams => _weaponParams;
 

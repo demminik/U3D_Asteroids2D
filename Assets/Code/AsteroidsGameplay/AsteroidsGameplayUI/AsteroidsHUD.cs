@@ -49,8 +49,11 @@ namespace Asteroids.Core.UI {
 
         private void Update() {
             if (_hasValidTarget) {
+                // TODO: need to pass world forward/up values in constructor for more flexibility
+                var worldForward = Vector3.forward;
+
                 _txtCoordinates.text = $"Coordinates x:{_playerShip.Model.Transform.Position.x.ToString("F2")} z:{_playerShip.Model.Transform.Position.z.ToString("F2")}";
-                _txtRotationAngle.text = $"Angle: {Quaternion.Angle(Quaternion.Euler(Vector3.forward), _playerShip.Model.Transform.Rotation).ToString("F0")}"; // TODO: need to pass forward/up values in constructor for more flexibility
+                _txtRotationAngle.text = $"Angle: {Quaternion.Angle(Quaternion.Euler(worldForward), _playerShip.Model.Transform.Rotation).ToString("F0")}";
                 _txtSpeed.text = $"Speed: {_playerShip.Model.MovementModule.CurrentSpeed.ToString("F0")}";
 
                 if (_playerShip.Model.Weapon2 != null) {

@@ -17,11 +17,11 @@ namespace Asteroids.Core.SpaceObjects.Modules {
 
         private ObjectTransform _transform;
 
-        // TODO: this can be buffable, consider it (not important for demo project)
+        // TODO: this can be buffable, consider it (not important for demo)
         private MovementParams _movementParams;
         private RuntimeParams _runtimeParams;
 
-        // TODO: need to pass forward/up values in constructor for more flexibility
+        // TODO: need to pass world forward/up values in constructor for more flexibility
         private Vector3 _worldDirectionForward = Vector3.forward;
 
         private float _accelerationPower = 0f;

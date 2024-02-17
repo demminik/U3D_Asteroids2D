@@ -151,7 +151,7 @@ namespace Asteroids2D.Gameplay {
         }
 
         private void ClearEntities() {
-            // very lazy
+            // very lazy cleanup
             var createdEntities = FindObjectsOfType<SpaceObjectBase>();
             foreach (var entity in createdEntities) {
                 GameObject.Destroy(entity.gameObject);

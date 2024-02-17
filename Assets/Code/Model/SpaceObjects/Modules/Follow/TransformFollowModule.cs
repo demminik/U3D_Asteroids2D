@@ -23,7 +23,7 @@ namespace Asteroids.Core.SpaceObjects.Modules {
         }
 
         public void Tick(float deltaTime) {
-            // TODO: add support of bounds to calculate better follow path
+            // TODO: add support of bounds to calculate better follow path (not important for demo)
 
             if(_movementModule != null) {
                 if (TargetTransform != null) {
