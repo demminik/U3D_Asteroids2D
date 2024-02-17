@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a027797f95054ff49a25d3f94a9f0b0c, type: 3}
+  m_Name: SpaceObjectCoreSettings
+  m_EditorClassIdentifier: 
+  _asteroidSettings:
+  - Resilience:
+      Health: 1
+    Movement:
+      MaxSpeed: 15
+      AccelerationPower: 20
+      InertiaPower: 0
+      RotationSpeed: 0
+  - Resilience:
+      Health: 1
+    Movement:
+      MaxSpeed: 11
+      AccelerationPower: 20
+      InertiaPower: 0
+      RotationSpeed: 0
+  - Resilience:
+      Health: 1
+    Movement:
+      MaxSpeed: 7
+      AccelerationPower: 20
+      InertiaPower: 0
+      RotationSpeed: 0
+  _shipSettings:
+  - Resilience:
+      Health: 1
+    Movement:
+      MaxSpeed: 12
+      AccelerationPower: 20
+      InertiaPower: 10
+      RotationSpeed: 180
+    WeaponProjectile:
+      Damage:
+        DamageType: 1
+        DamageAmount: 1
+      MaxAmmo: 0
+      AmmoRestoreDuration: 0
+      ShotCooldown: 0.25
+    WeaponLaser:
+      Damage:
+        DamageType: 2
+        DamageAmount: 1
+      MaxAmmo: 2
+      AmmoRestoreDuration: 7
+      ShotCooldown: 2
+  _ufoSettings:
+  - Resilience:
+      Health: 1
+    Movement:
+      MaxSpeed: 8
+      AccelerationPower: 20
+      InertiaPower: 10
+      RotationSpeed: 150
+  - Resilience:
+      Health: 1
+    Movement:
+      MaxSpeed: 10
+      AccelerationPower: 20
+      InertiaPower: 10
+      RotationSpeed: 150
+  _projectileSettings:
+    Resilience:
+      Health: 1
+    Movement:
+      MaxSpeed: 25
+      AccelerationPower: 99999
+      InertiaPower: 0
+      RotationSpeed: 0
+    Damage:
+      DamageType: 1
+      DamageAmount: 1
+    Lifetime: 1

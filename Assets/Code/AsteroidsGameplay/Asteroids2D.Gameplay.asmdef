@@ -1,0 +1,19 @@
+{
+    "name": "Asteroids2D.Gameplay",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e4bdee8f2f2af6944a8ca39590bd5332",
+        "GUID:40461aff3aa08ea40ad20f1823a3b3d7",
+        "GUID:d781b5c7dbf9a5c42b4449d60e25ed51",
+        "GUID:1a56f6e1e938b0946b9f21afaa0ab5bc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

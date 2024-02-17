@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8435e75f4f09e648846926f19194330, type: 3}
+  m_Name: SpaceObjectSettings
+  m_EditorClassIdentifier: 
+  _coreSettings: {fileID: 11400000, guid: 9814debdc92041d4f816fa0f70aec95a, type: 2}
+  _asteroidPrefab: {fileID: -5786962039398245204, guid: 95306fb0c31959e4a9d48ff20be6f4f4, type: 3}
+  _asteroidSkins:
+  - {fileID: 8563526646238948247, guid: 1182ad72e320e3e4eb76e764e46f32d2, type: 3}
+  - {fileID: 8563526646238948247, guid: 19ca79141bf31a24982123981c0754ea, type: 3}
+  - {fileID: 8563526646238948247, guid: 28f79d0e36a5a7648aeabec6bedcf1c4, type: 3}
+  _playerShipPrefab: {fileID: 4570455264807820112, guid: 654b53fb9c8842a4eb49246ff75976f1, type: 3}
+  _shipSkins:
+  - {fileID: 4714365580764844479, guid: 06ed7db8b9845bc43be09e420491511a, type: 3}
+  _ufoPrefab: {fileID: 6837598940224984469, guid: bfab91e378f669d4c8b334384d496026, type: 3}
+  _ufoSkins:
+  - {fileID: 4545706793485018953, guid: 507f763ddffe77b4bb12dc3be5344e68, type: 3}
+  _projectilePrefab: {fileID: 4958562598967096861, guid: 9a1dcfb6380aea44394b076348faf1f3, type: 3}
